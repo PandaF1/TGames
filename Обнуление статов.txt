@@ -1,0 +1,4 @@
+//////////Обнуление статов
+UPDATE `characters` SET `streangth`=5,`health`=5,`luck`=5,`agility`=5,`armor`=5,`armorpnt`=5,`streangth_clothes`=0,`health_clothes`=0,`luck_clothes`=0,`agility_clothes`=0,`armor_clothes`=0,`armorpnt_clothes`=0 WHERE `id_user`= 2
+///Обнуление шмотья
+UPDATE `usersperson` SET `type_head`=0,`type_body`=0,`type_gloves`=0,`type_falderal`=0,`type_weapon`=0,`type_pants`=0,`type_bag`=0,`type_boots`=0,`id_head`=0,`id_body`=0,`id_gloves`=0,`id_falderal`=0,`id_weapon`=0,`id_pants`=0,`id_bag`=0,`id_boots`=0 WHERE `id_user`= 2

@@ -1,0 +1,47 @@
+ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+   }
+ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px;
+    padding: 3px;
+   }
+.box:hover{
+  background: #7C41B4;
+  color: #EB2B00;
+  padding: 3px;
+}
+a{  color:#EB0000;
+	text-decoration:none;
+	cursor:pointer;
+}
+.demo-1 {
+  position: relative;
+}
+.demo-1:before {
+  content: '';
+  position: absolute;
+  bottom: 1;
+  left: 1;
+  top: 1;
+  right: 1;
+
+
+  -webkit-transition-property: top, left, right, bottom;
+  -moz-transition-property: top, left, right, bottom;
+  -ms-transition-property: top, left, right, bottom;
+  -o-transition-property: top, left, right, bottom;
+  transition-property: top, left, right, bottom;
+}
+
+.demo-1:hover:before, .demo-1:focus:before{
+	transition: all .3s;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+
+  border: #5400A3 solid 3px;
+  bottom: -7px;
+  left: -7px;
+  top: -7px;
+  right: -7px;
+}

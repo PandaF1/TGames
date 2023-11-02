@@ -1,0 +1,153 @@
+.meter {
+        height: 10px;  /* Может быть любой */
+        position: relative;
+        background: #555;
+        padding: 4px;
+        -webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+        -moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
+        box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+.Sspan {
+        float:left;
+        display: block;
+        height: 100%;
+        background-color: rgb(43,194,83);
+        background-image: -webkit-gradient(
+          linear,
+          left bottom,
+          left top,
+          color-stop(0, rgb(43,194,83)),
+          color-stop(1, rgb(84,240,84))
+         );
+        background-image: -moz-linear-gradient(
+          center bottom,
+          rgb(43,194,83) 37%,
+          rgb(84,240,84) 69%
+         );
+        -webkit-box-shadow:
+          inset 0 2px 9px  rgba(255,255,255,0.2),
+          inset 0 -2px 6px rgba(0,0,0,0);
+        -moz-box-shadow:
+          inset 0 2px 9px  rgba(255,255,255,0.2),
+          inset 0 -2px 6px rgba(0,0,0,0);
+        position: relative;
+        overflow: hidden;
+}
+#orange {
+        background-color: #f1a165;
+        background-image: -moz-linear-gradient(top, #f1a165, #f36d0a);
+        background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #f1a165),color-stop(1, #f36d0a));
+        background-image: -webkit-linear-gradient(#f1a165, #f36d0a);
+}
+
+#red {
+        background-color: #f0a3a3;
+        background-image: -moz-linear-gradient(top, #f0a3a3, #f42323);
+        background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #f0a3a3),color-stop(1, #f42323));
+        background-image: -webkit-linear-gradient(#f0a3a3, #f42323);
+}
+#green {
+        background-color: #57FF78;
+        background-image: -moz-linear-gradient(top, #57FF78, #00AD23);
+        background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #57FF78),color-stop(1, #00AD23));
+        background-image: -webkit-linear-gradient(#57FF78, #00AD23);
+}
+.char_meter {
+        margin-top: 35px;
+}
+.table_main{
+  float:left;
+  max-width:100px;
+  height: 141px;
+  border:3px solid #00FF00;
+}
+
+#frts_main_hrp{
+  border: 2px solid #CFCFCF;
+    width: 200px;
+}
+#inventory{
+  float:left;
+  border: 2px solid #9400D3;
+  margin-left: 3.5px;
+  margin-top: 3.5px;
+  width: 478px;
+  height: 393px;
+}
+#sinventory{
+  float:left;
+  overflow-y:auto;
+  border: 2px solid #9400D3;
+  margin-left: -3.5px;
+  margin-top: 3.5px;
+  width: 478px;
+  height: 365px;
+}
+#box_invet1{
+  margin-top: 10px;
+  margin-left: 23px;
+  border: 2px solid red;
+  width: 80px;
+  height: 80px;
+}
+#box_invet2{
+  border: 2px solid red;
+  margin-left:15px;
+  margin-top: 30px;
+  width: 100px;
+  height: 150px;
+}
+#left_main{
+  float:left;
+  margin-top:-3px;
+}
+#centre_main{
+  float:left;
+  margin-top: 290px;
+  margin-left:-331px;
+}
+#box_invet3{
+  float:left;
+  margin-top: 10px;
+  margin-left: 30px;
+  border: 2px solid red;
+  width: 80px;
+  height: 80px;
+}
+#right_main{
+  float:left;
+  margin-left:-110px;
+  margin-top:-3px;
+}
+#hero{
+  float:left;
+  border: 2px solid green;
+  margin:13px;
+  width: 210px;
+  height: 260px;
+}
+#div_item{
+  border: 2px solid green;
+  width:80px;height:80px;
+  margin-left:-2px;
+  margin-top:-2px;
+}
+#div_itemb{
+  border: 2px solid green;
+  width:100px;height:150px;
+  margin-left:-2px;
+  margin-top:-2px;
+}
+#td{
+  float:left;
+  text-align:center;
+  margin-bottom:-3px;
+  border:2px solid white;
+  width:100px;
+  height: 100px;
+}
+#InvetMaxMin{
+  border: 2px solid white;
+  height:20px;
+  width:auto;
+}

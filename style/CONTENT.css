@@ -1,0 +1,164 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+body{
+    margin: auto;
+    background-image: url(../Image/vilagebg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:Georgia, Arial, Helvetica, Sans-Serif;
+    max-width: 1300px;
+}
+* { margin: 0; padding: 0; }
+p { padding: 10px; }
+#left {border: 2px solid #CFCFCF; margin-left: 10px; top: 5px; width: 200px;position: relative;}   /*тело для контента левое*/
+.shops{text-align: center;margin-top: 10px;margin-bottom: -10px}
+#right {
+   position: relative;
+   border: 2px solid #CFCFCF;
+   margin-left: 235px;
+   margin-top:-290px;
+   width: 1050px;
+} /*тело для контента правое*/
+.one{       /*главное тело сайта (2й части)*/
+
+    color:#FF1A1D;
+    position: static;
+    width: 1300px;
+	min-height:580px;
+}
+.main {  /*тело для контента*/
+  
+  margin-top: 30px;
+}
+.main label {
+
+    font-family:"Courier New", Courier, monospace;
+	font-size: 18px;
+    font-weight:900;
+    color:#63CAC3;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+	display: block;
+}
+.main input {
+
+    font-family:"Courier New", Courier, monospace;
+	border: 2px solid #CFCFCF;
+	font-size: 18px;
+	color: #0000CC;
+	padding: 7px 7px 8px;
+	width: 250px;
+    margin-bottom: 20px;
+    margin: 5;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s; 
+}
+.main select {
+    font-family:"Courier New", Courier, monospace;
+	border: 2px solid #CFCFCF;
+	font-size: 18px;
+	color: #0000CC;
+	padding: 5px 5px 5px;
+    margin-left: -15px;
+	width: 100px;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+.main input:focus {outline: none;border-color: #333333;}
+.main .btn_submit {
+	border: none;
+	width: 180px;
+	text-align: center;
+	background: #6600FF;
+	font-size: 15px;
+	font-weight:bolder;
+	color: #FFFFFF;
+	cursor: pointer;
+	height: 35px;
+	line-height: 28px;
+	padding: 3;
+}
+.main .shop_submit {
+	border: none;
+	width: 90px;
+	text-align: center;
+	background: #6600FF;
+	font-size: 15px;
+	font-weight:bolder;
+	color: #FFFFFF;
+	cursor: pointer;
+	height: 35px;
+	line-height: 28px;
+	padding: 3;
+}
+
+.main .btn_submit:hover {background: #832CE8;}
+.main .btn_submit:active {box-shadow: inset 0 2px 2px rgba(0,0,0,0.2);}
+.main .btn_submit.disabled,.main .btn_submit.disabled:hover {background: #afdde6;cursor: default;}
+h1 {
+    margin:10;
+ text-shadow: 4px 4px 0px rgba(0,0,0,0.2);
+}
+
+.hello /*Ввывод описания персонажа*/
+{
+    font-family:"Courier New", Courier, monospace;
+	font-size: 18px;
+    font-weight:900;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+	display: block;
+}
+.mess{ /*сообщение об успешная регистрация*/
+	text-align: center; 
+	margin-top:-1%; 
+	font-size: 15px;
+	font-weight:bolder;
+	margin-bottom:1%;
+}
+.hello /*Ввывод описания персонажа*/
+{
+    font-family:"Courier New", Courier, monospace;
+	font-size: 18px;
+    font-weight:900;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+	display: block;
+}
+/*main*/
+#dwn_main{
+	border: 2px solid #CFCFCF;
+	height: 450px;
+}
+#frts_main{
+	float:left;
+	border: 2px solid #CFCFCF;
+	margin-left: 10px;
+   	margin-top:20px;
+   	width: 250px;
+   	height: 405px;
+}
+#cntr_main{
+	float:left;
+	border: 2px solid #CFCFCF;
+	margin-left: 10px;
+   	margin-top:20px;
+   	width: 490px;
+   	height: 405px;
+}
+#content{
+	border: 2px solid #CFCFCF;
+	overflow-y:auto;
+	margin-left: 14.2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 750px;
+	max-height: 755px;
+}
+a:hover{text-decoration: none}
+.dib{margin-left:40px;margin-top: -49px;} /* Радио кнопки Регистрации */
+
+/* Всплывающее окно */
+#tt {position:absolute; display:block; background:url(../Image/images/tt_left.gif) top left no-repeat}
+#tttop {display:block; height:5px; margin-left:5px; background:url(../Image/images/tt_top.gif) top right no-repeat; overflow:hidden}
+#ttcont {display:block; padding:6px; background:rgb(102, 102, 102); color:#FFC71F}
+#ttbot {display:block; margin-left:5px; background:url(../Image/images/tt_bottom.gif) top right no-repeat; overflow:hidden}

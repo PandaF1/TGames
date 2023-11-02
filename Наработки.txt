@@ -1,0 +1,4 @@
+ <div class='meter' style='width:80%; margin-bottom:5px;'> // HP
+	 <span class='Sspan' id='green' style='width:".$Lf_first."%'></span>
+	 <span class='Sspan' id='red'style='width:".$Lf_second."%'></span>
+ </div>

@@ -1,0 +1,9 @@
+﻿# Файл который будет подключен при указании названия
+DirectoryIndex game.php 
+
+# Кодировка страниц
+AddDefaultCharset UTF-8
+
+# dnwr_ip 25.109.64.26
+
+php_value error_reporting 1
